@@ -1,8 +1,5 @@
-name: push
-on:
-  push:
-    branches:
-      - 'main'
+on: push
+name: deploy to dockerhub
 jobs:
   build:
     runs-on: ubuntu-latest
