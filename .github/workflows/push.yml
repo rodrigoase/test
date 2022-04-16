@@ -23,4 +23,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/test:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker101tutorial:version2
